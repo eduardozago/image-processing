@@ -1,0 +1,3 @@
+-   Definição de um valor de corte para o dominio de variação de cores, 
+    no caso de gray scale, de 0 a 255;
+-   Separação de pixels da imagem em diferentes classes;
