@@ -1,11 +1,13 @@
-Image Processing (OpenCV) - Thresholding
+# Image Processing (OpenCV) - Thresholding
 
 Thresholding techniques
 
-Detection of handwriting from images with models to compare
+### Compile (require OpenCV lib):
+```sh
+g++ <name_file>.cpp `pkg-config --libs --cflags opencv4` -o <name>
+```
 
-Compile (require OpenCV lib):
-g++ <name_file>.cpp pkg-config --libs --cflags opencv4 -o out
-
-Execute:
-./out
+### Execute:
+```sh
+./<name>
+```

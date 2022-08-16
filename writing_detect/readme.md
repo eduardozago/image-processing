@@ -1,9 +1,13 @@
-Image Processing (OpenCV) - Writing  Detect
+# Image Processing (OpenCV) - Writing  Detect
 
 Detection of handwriting from images with models to compare
 
-Compile (require OpenCV lib):
-g++ main.cpp pkg-config --libs --cflags opencv4 -o out
+### Compile (require OpenCV lib):
+```sh
+g++ main.cpp `pkg-config --libs --cflags opencv4` -o <name>
+```
 
-Execute:
-./out
+### Execute:
+```sh
+./<name>
+```
